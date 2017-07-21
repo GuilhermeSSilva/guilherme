@@ -1,0 +1,181 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding-bottom: 90px;
+		}
+#logo{
+	left: 40px;
+	width: 140px;
+	position: absolute;
+	top: 20px;
+}
+#logos {
+	background-color: #e0e80d;
+	height: 160px;
+}
+#cadastro{
+	text-align:center;
+	font-size: 40px;
+	margin: 0;
+	margin-top: 30px;
+}
+.inputt {
+	width: 330px;
+	height: 50px;
+	border-radius: 5px;
+	background-color: rgba(224, 224, 224, 0.64);
+	border-style: none;
+}
+.erro {
+	background-color: #F08080;
+}
+#flex {
+	margin: 0 auto;
+	width: 800px;
+	margin-top: 120px;
+}
+.inputtt {
+	width: 180px;
+	height: 50px;
+	border-radius: 5px;
+	background-color: rgba(224, 224, 224, 0.64);
+	border-style: none;
+}
+#desbugando {
+	display: flex;
+	flex-wrap: wrap;
+}
+input {
+	margin-right: 20px;
+	padding-left: 10px;
+}
+#botao {
+     width: 240px;
+     height: 60px;
+     margin-top: 30px;
+     margin-right: 50px;
+     background-color: #b4bb07;
+     border-radius: 5px;
+     border-style: none;
+     color: white;
+     font-size: 120%;
+     box-shadow: 0px 1px 3px 1px #84890d;
+}
+#prdd {
+	background-color: #e0e80d;
+	right: 0px;
+	left: 0px;
+	bottom: 0;
+	height: 80px;
+	margin-top: 50px;
+	position: fixed;
+}
+#prd {
+	font-weight: bold;
+	text-align: center;
+	padding-top: 15px;
+}
+form {
+	margin:0 auto;
+}
+#sn {
+ 	margin-top: -4px;
+ 	margin-left: 40px;
+ 	font-weight:bold;
+ 	position: relative;
+ 	top: 120px;
+}
+#sobrenome {
+	width: 388px;
+	height: 50px;
+}
+@media screen and (max-width: 800px){
+	#alone {
+		display: flex;
+		align-items: center;
+		flex-flow: column;
+	}
+	#sn {
+		position: static;
+		font-size: 10px;
+		margin: 0;
+		margin-left: -13px;
+	}
+	#logo {
+		position: static;
+		margin: 0;
+		width: 100px;
+	}
+	#cadastro{
+		padding: 0;
+	}
+	#logos {
+		display: flex;
+		justify-content: center;
+		flex-flow: column;
+	}
+	#desbugando {
+		justify-content: center;
+		padding: 5%;
+		padding-right: 40px;
+	}
+	#flex {
+		max-width: 360px;
+		width: 60%;
+		margin-top: 20px;
+	}
+	.inputt {
+		max-width: 350px;
+		width: 120%;
+	}
+	.inputtt{
+		width: 120%;
+		max-width: 350px;
+
+	}
+	#sobrenome {
+		max-width: 350px; 
+		width: 120%;
+	}
+	#botao {
+		margin: 0 auto;
+		margin-bottom: 20px;
+		width: 165px;
+		height: 50px;
+		margin-top: 10px;
+	}
+	#vacilao {
+		display: flex;
+		justify-content: center;
+	}
+	#prdd {
+		position: fixed;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		}
+}
+
+@media screen and (min-width: 768px) and (max-width: 768px) {
+	body{
+		background-color: red;
+	}
+ 	#cadastro{
+ 		width:800px;
+ 		height: 790px;
+ 	}
+	#flex {
+		max-width: 900px;
+		width: 650px;
+	}
+	input {
+		width: 90%!important;
+		margin-right: 150px;
+	}
+	#botao {
+		max-width: 165px;
+	}
+	#prdd {
+		position: static;
+	}
+}
